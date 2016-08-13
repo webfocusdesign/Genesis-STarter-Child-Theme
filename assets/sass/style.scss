@@ -1,0 +1,30 @@
+/*!
+	Theme Name: Zone W3 Genesis Starter Child Theme
+	Theme URI: http://zonew3.com/
+	Description: This is the starter theme created for the Genesis Framework for all Zone W3 Genesis web sites.
+	Author: Zone W3 Media Design inc.
+	Author URI: http://zonew3.com/
+
+	Version: 1.0.0
+
+	Template: genesis
+	Template Version: 2.3.1
+	
+	Text Domain: genesis-zonew3-starter-child
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html	
+*/
+
+@import "base/index";
+@import "layouts/index";
+@import "common-classes/index";
+@import "components/widgets/index";
+@import "plugins/index";
+@import "components/accessibility/index";
+@import "components/header/index";
+@import "components/navigation/index";
+@import "components/content/index";
+@import "components/comments/index";
+@import "components/sidebars/index";
+@import "components/footer/index";

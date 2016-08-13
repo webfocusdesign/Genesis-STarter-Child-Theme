@@ -1,0 +1,60 @@
+$white: #fff;
+$black: #000;
+
+$base_color: #333;
+
+$link_color: #c3254d;
+$link_hover-color: #333;
+
+$body_background-color: #eee;
+
+//
+// Site Header Colors
+//=====================================
+
+$site-header_background-color: $white;
+$site-title_link-color: #333;
+
+//
+// Navigation colors
+//=====================================
+
+$nav_link-color: #333;
+$nav_hover-color: #c3251d;
+$nav-submenu_border-color: #eee;
+$nav-submenu_link-background-color: #fff;
+
+$primary-nav_background-color: $white;
+$primary-nav_link-color: #c3254d;
+$primary-nav_link-color-hover: #333;
+$primary-nav_border-color: #eee;
+
+$secondary-nav_background-color: $white;
+$secondary-nav_link-color: #c3254d;
+$secondary-nav_link-color-hover: #333;
+$secondary-nav_border-color: #eee;
+
+$header-nav_background-color: $white;
+$header-nav_link-color: #c3254d;
+$header-nav_link-color-hover: #333;
+
+$js-nav_background-color: $black;
+$js-nav--hover-color: $white;
+$js-nav--focus-color: #c3251d;
+
+$nav-toggle_background-color: $white;
+$nav-toggle_color: #333;
+
+$archive-pagination_background-color: $white;
+$archive-pagination_link-color: #333;
+$archive-pagination_hover-background-color: #c3251d;
+$archive-pagination_link-hover-color: $white;
+
+//
+// Footer colors
+//=====================================
+
+$footer-widgets_background-color: $white;
+
+$site-footer_background-color: $white;
+$site-footer_border-top-color: #eee;
