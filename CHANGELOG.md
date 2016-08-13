@@ -1,10 +1,16 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
+# Zone W3 Starter Child Theme Change Log
 
-<body>
-</body>
-</html>
+Temporary Github repo
+https://github.com/webfocusdesign/genesis-zw3-starter-child
+
+This project follows semantic versioning:
+
+1- MAJOR version when you make incompatible API changes,<br>
+2- MINOR version when you add functionality in a backwards-compatible manner, and<br>
+3- PATCH version when you make backwards-compatible bug fixes.
+
+## [0.1.0] - 2016-08-13
+
+* Initial unfinished version being refactored from 
+  https://knowthecode.io/labs-guide/lets-build-custom-developers-genesis-starter-child-theme
+  
