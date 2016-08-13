@@ -9,13 +9,11 @@
 
 	Template: genesis
 	Template Version: 2.3.1
-	
-	Text Domain: genesis-zonew3-starter-child
 
+	Text Domain: genesis-zonew3-starter-child
 	License: GPL-2.0+
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html	
 */
-
 
 /* # Table of Contents
 - HTML5 Reset
@@ -1506,6 +1504,7 @@ p.entry-meta {
 	}
 
 }
+
 
 @media only screen and (max-width: 1200px) {
 
