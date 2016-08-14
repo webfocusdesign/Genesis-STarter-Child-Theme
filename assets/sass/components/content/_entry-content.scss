@@ -1,15 +1,8 @@
-/* ## Entries
+/* ## Entry Content
 --------------------------------------------- */
 
-.entry {
-  background-color: #fff;
-  margin-bottom: 40px;
-  padding: 70px 80px;
-}
-
 .entry-content {
-  ol,
-  ul {
+  ol, ul {
     margin-bottom: 28px;
     margin-left: 40px;
   }
@@ -28,7 +21,7 @@
   }
 
   code {
-    background-color: #333;
-    color: #eee;
+    background-color: $entry-content-code_background-color;
+    color: $entry-content-code_color;
   }
 }

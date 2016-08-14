@@ -1,0 +1,4 @@
+p.entry-meta {
+  @include rem( font-size, $entry-meta_font-size);
+  margin-bottom: 0;
+}
