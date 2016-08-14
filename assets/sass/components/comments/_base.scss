@@ -5,10 +5,14 @@
 .comment-respond,
 .entry-comments,
 .entry-pings {
-  background-color: #fff;
-  font-size: 16px;
-  font-size: 1.6rem;
+  background-color: $comments_background-color;
+  font-size: rem( $comments_font-size );
   margin-bottom: 40px;
+
+  @media only screen and (max-width: 860px) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
 }
 
 .comment-respond,
@@ -23,4 +27,3 @@
 .entry-pings .reply {
   display: none;
 }
-
