@@ -1,0 +1,272 @@
+[
+    {
+        "key": "group_577472f622a98",
+        "title": "Options du th\u00e8me",
+        "fields": [
+            {
+                "key": "field_5776bad6a5060",
+                "label": "G\u00e9n\u00e9rales",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5776bb0ca5061",
+                "label": "Mise en page",
+                "name": "zw3_basic_theme_layout",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "full-width": "Pleine largeur (full width)",
+                    "boxed": "Largeur fixe (boxed)"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "full-width",
+                "layout": "horizontal"
+            },
+            {
+                "key": "field_5777dce1db859",
+                "label": "D\u00e9sactiver mises en page",
+                "name": "zw3_unregister_layouts",
+                "type": "checkbox",
+                "instructions": "(unregister layouts)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "content-sidebar": "Content\/Sidebar",
+                    "sidebar-content": "Sidebar\/Content",
+                    "content-sidebar-sidebar": "Content\/Sidebar\/Sidebar",
+                    "sidebar-sidebar-content": "Sidebar\/Sidebar\/Content",
+                    "sidebar-content-sidebar": "Sidebar\/Content\/Sidebar",
+                    "full-width-content": "Full Width"
+                },
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0
+            },
+            {
+                "key": "field_578eee1483f0d",
+                "label": "Activer \/ d\u00e9sactiver",
+                "name": "zw3_gen_activate",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "font-awesome": "Font Awesome"
+                },
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0
+            },
+            {
+                "key": "field_57911f3314603",
+                "label": "Ent\u00eate",
+                "name": "ent\u00eate",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_57911f9e28814",
+                "label": "Logo",
+                "name": "zw3_logo",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_57912f2706681",
+                "label": "Largeur logo",
+                "name": "zw3_custom_header_width",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 450,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_57912f4506682",
+                "label": "Hauteur logo",
+                "name": "zw3_custom_header_height",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 150,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_57911ef9c156f",
+                "label": "Pied de page",
+                "name": "pied_de_page",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_578ef60143fbc",
+                "label": "Nombre de widgets de pied de page",
+                "name": "zw3_number_footer_widgets",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "default_value": [
+                    0
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_57747364346f5",
+                "label": "WooCommerce",
+                "name": "woocommerce",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_577473a7d2288",
+                "label": "Support de WooCommerce",
+                "name": "zw3_support_woocommerce",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Activer le support de WooCommerce",
+                "default_value": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "zw3-theme-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
