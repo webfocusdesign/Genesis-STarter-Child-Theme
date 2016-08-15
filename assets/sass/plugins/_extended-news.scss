@@ -2,7 +2,7 @@
 --------------------------------------------- */
 
 .sidebar .widget.enews-widget {
-  background-color: #333;
+  background-color: $plugins-enews-widget_background-color;
 }
 
 .sidebar .enews-widget {
@@ -14,25 +14,24 @@
 
   input,
   input:focus {
-    border: 1px solid #333;
+    border: 1px solid $plugins-enews-widget-input_border-color;
   }
 
   input[type="submit"] {
-    background-color: #c3251d;
-    color: #fff;
+    background-color: $plugins-enews-widget-submit_background-color;
+    color: $plugins-enews-widget-submit_color;
   }
 
   input:hover[type="submit"],
   input:focus[type="submit"]  {
-    background-color: #fff;
-    color: #333;
+    background-color: $plugins-enews-widget-submit-hover_background-color;
+    color: $plugins-enews-widget-submit-hover_color;
   }
 }
 
 .enews-widget {
   input {
-    font-size: 16px;
-    font-size: 1.6rem;
+    font-size: rem( $plugins-enews-widget-input_font-size );
     margin-bottom: 16px;
 
     &[type="submit"] {

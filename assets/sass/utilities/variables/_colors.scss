@@ -63,14 +63,26 @@ $entry-content-code_color: #333;
 //
 // Comments
 //=====================================
-
 $comments_background-color: $white;
+
+//
+// Widgets
+//=====================================
+$widget-title_link-color: #333;
+
+//
+// Plugins
+//=====================================
+$plugins-enews-widget_background-color: #333;
+$plugins-enews-widget-input_border-color: #333;
+$plugins-enews-widget-submit_background-color: #c3251d;
+$plugins-enews-widget-submit_color: #white;
+$plugins-enews-widget-submit-hover_background-color: $white;
+$plugins-enews-widget-submit-hover_color: #333;
 
 //
 // Footer
 //=====================================
-
 $footer-widgets_background-color: $white;
-
 $site-footer_background-color: $white;
 $site-footer_border-color: #eee;
